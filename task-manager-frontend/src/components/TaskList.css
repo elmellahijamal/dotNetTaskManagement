@@ -1,0 +1,113 @@
+.task-list {
+    margin-top: 20px;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.loading {
+    font-size: 18px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+td img {
+    width: 20px;
+    height: 20px;
+}
+
+td span{
+    padding: 10px;
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-button {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.close-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.close-button:hover {
+    background-color: #d32f2f;
+}
+
+.update-button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.update-button:hover{
+    background-color: #7abb7c;
+}

@@ -1,0 +1,36 @@
+.manage-tasks-container {
+    padding: 20px;
+}
+
+.task-input {
+    margin-bottom: 15px;
+}
+
+.task-input input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.task-input button {
+    padding: 5px 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li span {
+    margin-right: 10px;
+}
+
+button {
+    margin-left: 5px;
+    padding: 3px 7px;
+}

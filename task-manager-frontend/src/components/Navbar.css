@@ -1,0 +1,50 @@
+nav {
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+.logoutBtn {
+    background-color: rgb(75, 74, 74);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.logoutBtn:hover {
+    background-color: gray;
+}
+
+.nav-left {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-right {
+    margin-left: auto;
+}
